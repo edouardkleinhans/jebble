@@ -94,7 +94,7 @@ if(menuSettings) {
 cardWait.show();
 
 Settings.config(
-  { url:'https://dl.dropboxusercontent.com/u/13087853/configuration_jebble.html?' + encodeURIComponent(JSON.stringify(Settings.option()))},
+  { url:'https://edouardkleinhans.github.io/jebble_watchapp/configuration_jebble.html?' + encodeURIComponent(JSON.stringify(Settings.option()))},
   function(e) {
     console.log('opened config');
   },
